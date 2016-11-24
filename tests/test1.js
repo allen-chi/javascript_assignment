@@ -3,6 +3,11 @@
 (function(){
   'use strict';
 
+  var chai = require('chai');
+  var assert = chai.assert;
+
+  var myApp = require('../app/library.js');
+
   describe("Determine the sequence of an array of numbers: ", function() {
 
     describe("Case for an empty array", function() {

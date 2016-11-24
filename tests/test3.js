@@ -1,5 +1,10 @@
 'use strict';
 
+var chai = require('chai');
+var assert = chai.assert;
+
+var myApp = require('../app/library.js');
+
 describe("Fizz Buzz tests ", function() {
 
   it("should return `Fizz` for number divisible by 3", function() {

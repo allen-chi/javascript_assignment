@@ -15,8 +15,8 @@ module.exports ={
     if(geometricPattern)
     	return "Geometric";
 
-    if (arr.length<1)
-    	return 0; 
+    else
+    	return -1; 
 	}
 
 }

@@ -1,9 +1,6 @@
-// Test goes below
+'use strict';
 
-(function() {
-  'use strict';
-
-  describe("Fizz Buzz tests ", function() {
+describe("Fizz Buzz tests ", function() {
 
   it("should return `Fizz` for number divisible by 3", function() {
     expect(fizzBuzz(3)).toBe('Fizz');
